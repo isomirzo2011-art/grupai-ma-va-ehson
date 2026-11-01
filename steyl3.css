@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #424551;
+}
+
+.salom100 {
+  background-color: #ffdecc;
+  padding: 20px 60px 60px 60px;
+}
+
+.salom101 {
+  max-width: 1200px;
+  margin: 0 auto 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.salom_logo_text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e212c;
+}
+
+.salom_logo_x {
+  color: #ff5a30;
+}
+
+.salom103 {
+  display: flex;
+  gap: 40px;
+}
+
+.salom104 {
+  font-size: 25px;
+ 
+}
+
+.salom105 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.salom106 {
+  background-color: #ff5a30;
+  color:white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+ 
+
+.salom108 {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.salom109 {
+  max-width: 500px;
+}
+
+.salom110 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #1e212c;
+  line-height: 1.2;
+  margin-bottom: 35px;
+}
+
+.salom111 {
+  display: flex;
+  gap: 20px;
+}
+
+.salom112 {
+  background-color: transparent;
+  color: #ff5a30;
+  border: 1px solid #ff5a30;
+  padding: 12px 28px;
+  border-radius: 4px;
+ 
+}
+
+.salom113 {
+  background-color: #ff5a30;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.salom114 {
+  width: 500px;
+  height: 400px;
+}
+
+.salom115 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.salom200 {
+  padding: 80px 20px;
+  background-color:white;
+}
+
+.salom201 {
+width: 1200px;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+.salom202 {
+  flex: 1;
+  height: 450px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.salom203 {
+  width: 100%;
+  height: 100%;
+}
+
+.salom204 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.salom205 {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #1e212c;
+}
+
+.salom206 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1e212c;
+  margin-bottom: 10px;
+}
+
+.salom207 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.salom208 {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.salom209 {
+  font-size: 14px;
+  color: #787a80;
+  line-height: 1.5;
+}
+
+.salom210 {
+  align-self: flex-start;
+  color: #ff5a30;
+  border: 1px solid #ff5a30;
+  padding: 10px 24px;
+  border-radius: 4px;
+ 
+}
+@media (max-width: 500px) {
+  .salom101 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .salom103 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .salom108 {
+    flex-direction: column;
+  }
+  .salom201 {
+    flex-direction: column;
+  }
+}
